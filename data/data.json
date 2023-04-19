@@ -1,0 +1,36 @@
+[
+    {
+        "id": 0,
+        "productName": "Olive",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Ripening_olives.jpg",
+        "from": "Spain",
+        "nutrients": "Vitamin B, Vitamin C",
+        "quantity": 4,
+        "price": 6.5,
+        "organic": true,
+        "description": "A ripe Olive yields to gentle pressure in the palm of the holder"
+    },
+    {
+        "id": 1,
+        "productName": "Peanuts",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Peanuts_%28Arachis_hypogaea%29_-_in_shell%2C_shell_cracked_open%2C_shelled%2C_peeled.jpg",
+        "from": "Portugal",
+        "nutrients": "Vitamin A, Calcium",
+        "quantity": 250,
+        "price": 5.0,
+        "organic": false,
+        "description": "Creamy and distinct in flavour, Peanuts is a diary product enjoyed"
+    },
+    {
+        "id": 2,
+        "productName": "Maize",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Ab_food_06.jpg",
+        "from": "Mexico",
+        "nutrients": "Protein, Lipids, Carbohydrates", 
+        "quantity": 350,
+        "price": 7.0,
+        "organic": true,
+        "description": "Maize is a leafy stalk whose kernels have seeds inside. It is an angiosperm, which means that its seeds are enclosed inside a fruit or shell. It is has long been a staple food by many people in Mexico, Central and South America and parts of Africa"
+    }
+
+]

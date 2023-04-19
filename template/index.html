@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: rgb(185, 208, 185);
+        }
+
+        .darkgreen-bg {
+            background-color: darkgreen;
+        }
+
+        .padding-ten {
+            padding: 10px 0;
+        }
+
+        .left-padding {
+            padding: 0 10px;
+        }
+
+        .bottom-sp {
+            margin-bottom: 10px;
+        }
+
+        .font-16 {
+            font-size: 16px;
+        }
+
+        .font-20 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .font-24 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .farm-title {
+            color: white;
+            margin: auto 0;
+            padding-left: 10px;
+        }
+
+        .farm-container {
+            padding: 10px;
+            font-size: medium;
+            margin-right: auto;
+            margin-left: auto;
+            color: whitesmoke;
+            width: 100%;
+            height: auto;
+        }
+    </style>
+    <title>VEGETABLES FARM</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row darkgreen-bg padding-ten flex">
+            <div class="col-xs-2">
+                <a href="/">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7bHhEZJ8LvOb6Eu4sTFBrRA6b-h4p8kfgrBR1hyDpow&s"
+                        alt="logo" class="rounded-circle">
+                </a>
+            </div>
+
+            <div class="farm-title col-xs-10">
+                <h3 style="font-size: 3vw">DANZYCOOL' S VEGETABLE FARM</h3>
+            </div>
+        </div>
+
+        <div class="farm-container">
+            {%DESCRIPTION_CARD%}
+
+            <!-- <div class="vegetable_card" -->
+        </div>
+    </div>
+
+</body>
+
+</html>

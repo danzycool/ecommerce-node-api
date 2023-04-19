@@ -1,0 +1,11 @@
+.logo {
+    padding: 10px
+}
+
+.farm-container {
+    padding: 10px;
+    font-size: large;
+    margin: auto;
+    color: white;
+    background-color: darkgreen;
+}
